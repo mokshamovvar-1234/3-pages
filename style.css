@@ -1,0 +1,43 @@
+
+
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #e2d7f7;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+  
+  .form{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    width: 320px;
+    background-color:rgb(244,244,244);
+    padding-left: 30px;
+    margin-left: 450px;
+    box-shadow: 0 6px 20px rgba(144,144,144);
+    border-radius:10px; ;
+  }
+  .button1{
+    width: 100%;
+    background-color: #783595;
+    color: white;
+  }
+  .button2{
+    background-color: #783595;
+    color: white;
+    width: 150px;
+  }
+
+
