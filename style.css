@@ -5,12 +5,14 @@ body {
   text-align: center;
   margin-top: 100px;
   background-color: #e2d7f7;
+  margin-right: 6px;
 }
 
 input {
   display: block;
   margin: 10px auto;
   padding: 8px;
+  margin-left:65px;
 }
 
 button {
@@ -24,20 +26,59 @@ button {
     padding: 30px;
     width: 320px;
     background-color:rgb(244,244,244);
-    padding-left: 30px;
-    margin-left: 450px;
+    padding-left:30px;
+    margin-left:450px;
     box-shadow: 0 6px 20px rgba(144,144,144);
-    border-radius:10px; ;
+    border-radius:10px; 
+    
   }
   .button1{
     width: 100%;
     background-color: #783595;
     color: white;
+  
   }
   .button2{
     background-color: #783595;
     color: white;
     width: 150px;
+    margin-left:6px;
+    
+  }
+  .input2{
+    margin-left: 70px;
+  }
+
+  .form2{
+    text-align: center;
+    background-color: rgb(244,244,244);
+    padding: 30px;
+    width: 320px;
+    margin-left: 450px;
+    box-shadow: 0 6px 20px rgba(144,144,144);
+    border-radius: 10px;
   }
 
 
+  
+@media (max-width:480px) {
+  body{
+    padding: 10px;
+    margin-top: auto;
+  }
+  .form,
+  .form2{
+    padding:20px;
+  }
+  .h1{
+    margin-left: 10px;
+  }
+  .form{
+    margin-left: 20px;
+    width: 200px;
+  }
+  .input{
+    margin-left:500px;
+  }
+  
+}
