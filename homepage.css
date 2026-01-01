@@ -1,0 +1,23 @@
+.body-home{
+            text-align: center;
+            background-color: #e2d7e2;
+            justify-content:center;
+        }
+        .home-container{
+            width: 70%;
+            margin:auto;
+            background-color:rgb(244,244,244);
+            text-align: center;
+            justify-content: center;
+             padding: 30px;
+             width: 320px;
+            padding-left:30px;
+            margin-left:450px;
+            box-shadow: 0 6px 20px rgba(144,144,144);
+            border-radius:10px; 
+            text-align: center;
+            margin-top: 155px;
+    
+
+        }
+    

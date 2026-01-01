@@ -15,11 +15,11 @@ if (isset($_POST['submit'])) {
     }
 
     // Hash password (important)
-    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+    // $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
     // Insert into database
     $sql = "INSERT INTO users (name, email, password)
-            VALUES ('$name', '$email', '$hashedPassword')";
+            VALUES ('$name', '$email', '$password')";
 
     if (mysqli_query($conn, $sql)) {
         header("Location: login.php");
